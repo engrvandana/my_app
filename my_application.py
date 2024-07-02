@@ -7,4 +7,5 @@ def hello():
     return "Hello, World! This is my Flask application deployed on AWS Elastic Beanstalk."
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80)
+    app.run(host='0.0.0.0', port=80,debug=True)
+    
